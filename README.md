@@ -1,5 +1,7 @@
 # Plataforma de Elección entre Candidatos
 
+![Pantallazo del proyecto](pantallazo.jpg)
+
 Este proyecto es una plataforma interactiva que permite a los usuarios votar por uno de dos candidatos, registrar votos en blanco y finalizar la votación con un efecto de celebración. Ideal para demostraciones o simulaciones de procesos de votación en tiempo real.
 
 ---
