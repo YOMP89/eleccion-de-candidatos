@@ -23,11 +23,18 @@
                 <p>Descripción breve del Candidato B.</p>
                 <button onclick="vote('candidateB')">Votar por B</button>
             </div>
+            <div class="candidate" id="blankVote">
+                <h2>Voto en Blanco</h2>
+                <p>Elige esta opción si no deseas votar por ninguno.</p>
+                <button onclick="vote('blank')">Votar en Blanco</button>
+            </div>
         </div>
         <div class="results">
             <h2>Resultados</h2>
             <p>Candidato A: <span id="votesA">0</span> votos</p>
             <p>Candidato B: <span id="votesB">0</span> votos</p>
+            <p>Voto en Blanco: <span id="votesBlank">0</span> votos</p>
+            <button id="resetButton" onclick="resetVotes()">Restaurar Votos</button>
         </div>
     </main>
     <footer>
